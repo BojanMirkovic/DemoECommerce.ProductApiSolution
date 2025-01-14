@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApi.Domain", "Produc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApi.Presentation", "ProductApi.Presentation\ProductApi.Presentation.csproj", "{64628EF6-6632-466D-A3C9-E29AFA8A6813}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.SharedLibrary", "..\DemoECommerce.SharedLibrarySolution\eCommerce.SharedLibrary\eCommerce.SharedLibrary.csproj", "{8F1A5542-B833-4410-9D8B-F7BDE50C6180}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{64628EF6-6632-466D-A3C9-E29AFA8A6813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64628EF6-6632-466D-A3C9-E29AFA8A6813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64628EF6-6632-466D-A3C9-E29AFA8A6813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1A5542-B833-4410-9D8B-F7BDE50C6180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1A5542-B833-4410-9D8B-F7BDE50C6180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1A5542-B833-4410-9D8B-F7BDE50C6180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1A5542-B833-4410-9D8B-F7BDE50C6180}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
