@@ -14,7 +14,7 @@ namespace ProductApi.Presentation.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProducts()
         {
-            var products = await productInterface.GetaAllAsync();
+            var products = await productInterface.GetAllAsync();
             if (!products.Any())
             {
                 return NotFound("No product detected in the database");
