@@ -47,7 +47,7 @@ namespace ProductApi.Presentation.Controllers
 
             var getEntity = ProductConversions.ToEntity(product);
             var response = await productInterface.CreateAsync(getEntity); ;
-            return response.SuccessFlag ? Ok(response.Message) : NotFound(response.Message);
+            return response.SuccessFlag ? Ok(response.Message) : BadRequest(response.Message);
         }
 
         [HttpPut]
